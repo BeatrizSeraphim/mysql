@@ -54,7 +54,6 @@ values("Linguiça Toscana", 15.00, "500gramas", "inteira", 1);
 INSERT INTO tb_produtos(nome, preco, quantidade, tipo, categoria_id)
 values("Filé de frango", 23.90, "500gramas", "bife", 3);
 
-
 ALTER TABLE tb_produtos MODIFY quantidade varchar(255) not null;
 
 SELECT * FROM tb_produtos WHERE preco > 50.00;

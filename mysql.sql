@@ -16,7 +16,7 @@ CREATE TABLE tb_produtos(
     primary key(id)
     );
     
-    -- visualizar tabela
+-- visualizar tabela
 SELECT * FROM tb_produtos;    
 
 -- Popular tabela
@@ -53,6 +53,7 @@ DELETE FROM tb_produtos WHERE id = 4;
 
 -- Atualizar Coluna
 ALTER TABLE tb_produtos MODIFY preco decimal(6,2);
+
 
 -- Adicionar coluna
 ALTER TABLE tb_produtos ADD  descricao varchar(255);

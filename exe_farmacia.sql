@@ -61,6 +61,7 @@ SELECT * FROM tb_produtos WHERE nome LIKE "%c%";
 SELECT * FROM tb_produtos INNER JOIN tb_categorias
 ON tb_produtos.categoria_id = tb_categorias.id;
 
+
 SELECT * FROM tb_produtos INNER JOIN tb_categorias
 ON tb_produtos.categoria_id = tb_categorias.id
 WHERE tb_categorias.tipo = "medicamento"

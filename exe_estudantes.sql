@@ -12,9 +12,9 @@ CREATE TABLE tb_dados(
     primary key(id)
     );
     
-         SELECT * FROM tb_dados;
+SELECT * FROM tb_dados;
          
-         INSERT INTO tb_dados(nome, serie, nota, idade, periodo)
+INSERT INTO tb_dados(nome, serie, nota, idade, periodo)
 values ("Marcos", "2EM", 8.00, "17", "manhã");
  INSERT INTO tb_dados(nome, serie, nota, idade, periodo)
 values ("Giselle", "2EM", 6.00, "17", "manhã");

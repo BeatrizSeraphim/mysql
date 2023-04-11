@@ -61,6 +61,7 @@ SELECT * FROM tb_pizzas WHERE preco BETWEEN 50.00 AND 100.00;
 
 SELECT * FROM tb_pizzas WHERE sabor LIKE "%m%";
 
+
 SELECT * FROM tb_pizzas INNER JOIN tb_categorias
 ON tb_pizzas.categoria_id = tb_categorias.id;
 

@@ -64,6 +64,7 @@ SELECT * FROM tb_cursos WHERE descricao LIKE "%j%";
 SELECT * FROM tb_cursos INNER JOIN tb_categorias
 ON tb_cursos.categoria_id = tb_categorias.id;
 
+
 SELECT * FROM tb_cursos INNER JOIN tb_categorias
 ON tb_cursos.categoria_id = tb_categorias.id
 WHERE tb_categorias.horario = "noite"

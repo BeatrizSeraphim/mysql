@@ -12,7 +12,7 @@ CREATE TABLE db_rh(
     primary key(id)
     );
     
-    SELECT * FROM db_rh;
+SELECT * FROM db_rh;
     
 INSERT INTO db_rh(nome, cargo, salario, idade, email)
 values ("Beatriz", "Dona", 900.000, 21, "beatrizoseraphim@gmail.com");

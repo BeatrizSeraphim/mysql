@@ -12,9 +12,9 @@ CREATE TABLE db_cosmetico(
     primary key(id)
     );
     
-     SELECT * FROM db_cosmetico;
+SELECT * FROM db_cosmetico;
     
-    INSERT INTO db_cosmetico(nome, quantidade, valor, recomendacao, cor)
+INSERT INTO db_cosmetico(nome, quantidade, valor, recomendacao, cor)
 values ("Batom", "2", 25.00, "boca", "vermelho");
 INSERT INTO db_cosmetico(nome, quantidade, valor, recomendacao, cor)
 values ("Rímel", "50", 14.00, "olhos", "preto");
